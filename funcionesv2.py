@@ -4,7 +4,9 @@ print("Valentin Loya")
 celulares=["Samsung A52" , "iPhone 15" , "Chafa"]
 carros={"Charger" , "Challenger" , "Camaro"}
 marcas=("Adidas" , "Nike" , "Puma")
-nombres={"Ana" , "Derek" , "Chona"}
+nombres={"Nombre":"Ana",
+  "Apellido":"Sifuentes",
+  "Edad":23}
 # Zona de funciones
 # Lista
 def verlista(telefonos):
@@ -21,7 +23,7 @@ def vtupla(tenis):
 # Diccionario       
 def vDicc(misnovias):
     for unanovia in misnovias:
-        print(unanovia)
+        print(unanovia, "--" ,misnovias[unanovia])
 # Llamadas a funciones 
 # Llamada a lista
 print("\nImprime celulares de una lista")
