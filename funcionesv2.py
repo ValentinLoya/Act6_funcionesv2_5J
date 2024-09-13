@@ -2,9 +2,9 @@ print("Funciones version 2")
 print("Valentin Loya")
 # Zona de listas tuplas set y diccionario
 celulares=["Samsung A52" , "iPhone 15" , "Chafa"]
-carros=["Charger" , "Challenger" , "Camaro"]
-marcas=["Adidas" , "Nike" , "Puma"]
-nombres=["Ana" , "Derek" , "Chona"]
+carros={"Charger" , "Challenger" , "Camaro"}
+marcas=("Adidas" , "Nike" , "Puma")
+nombres={"Ana" , "Derek" , "Chona"}
 # Zona de funciones
 # Lista
 def verlista(telefonos):
